@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    margin: 0 auto;
+}
+.block{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(145, 233, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+.block.active{
+    background-color: rgb(255, 202, 219);
+}
